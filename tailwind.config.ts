@@ -22,6 +22,7 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          hover: "hsl(var(--primary-hover))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -46,6 +47,18 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        army: {
+          gold: "hsl(var(--army-gold))",
+        },
+        command: {
+          blue: "hsl(var(--command-blue))",
+        },
+        status: {
+          green: "hsl(var(--status-green))",
+        },
+        alert: {
+          orange: "hsl(var(--alert-orange))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
